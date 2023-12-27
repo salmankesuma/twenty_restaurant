@@ -59,9 +59,6 @@ function validateForm() {
         return false;
     }
 
-    // Validasi formulir lainnya di sini...
-
-
     return true; // Form is considered valid for now
 }
 
