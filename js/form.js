@@ -20,7 +20,7 @@ function sendForm() {
     // console.log(formProps, "ini formProps");
 
     // Send data to the server
-    fetch("https://be-2-bandung-20-production.up.railway.app/list", {
+    fetch("http://localhost:3000/list", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

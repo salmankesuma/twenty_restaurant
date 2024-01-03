@@ -78,11 +78,25 @@ body {
 }
 
 
+.delete-button {
+    background-color: #927d7d; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.delete-button:hover {
+    background-color: #cc0000; /* Change background color on hover */
+}
+
 /*table*/
 h2 {
     text-align: center;
     margin-top: 8rem;
     color: #1c1412;
+    font-size: large;
 }
 
 table {
@@ -153,4 +167,27 @@ th {
     .navbar .navbar-nav a:hover::after {
         transform: scaleX(0.2);
     }
+}
+
+/* Search Bar */
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #f2f4f6;
+}
+.search-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+input[type="text"] {
+    display: block;
+    width: calc(100% - 24px); /*20px [ left & Right ] padding + 4px border [ left & Right ] */ 
+    font-size: 18px;
+    font-weight: 600;
+    color: #262323;
+    padding: 10px;
+    border: 2px solid #ebe1e1;
 }
