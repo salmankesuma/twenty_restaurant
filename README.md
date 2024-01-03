@@ -1,2 +1,2 @@
 # twenty_restaurant
-tugas project akhir
+Capstone Project sebuah web restaurant untuk memboking 
